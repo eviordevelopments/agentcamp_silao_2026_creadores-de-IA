@@ -10,9 +10,9 @@ const sponsors = [
     { name: 'E-vior Developments', logo: '/assets/logo-tutor-ia.png', url: 'https://eviordevelopments.com' },
     { name: 'Global AI Community', logo: '/assets/logo-global-ai.png', url: '#' },
     { name: 'Inst Innovación', logo: '/assets/logo-instinnovacion.png', url: '#' },
-    { name: 'CONEDU', logo: '/assets/colaboracion-conedu.png', url: 'https://conedumxcom.netlify.app' },
+    { name: 'CONEDU', logo: '/assets/colaboracion-conedu-blue.png', url: 'https://conedumxcom.netlify.app' },
     { name: 'Evior', logo: '/assets/colaboracion-evior.png', url: 'https://eviordevelopments.com' },
-    { name: 'TrueData', logo: '/assets/true.png', url: 'https://www.truedata.com.mx/' },
+    { name: 'TrueData', logo: '/assets/true-blue.png', url: 'https://www.truedata.com.mx/' },
     { name: 'Global AI León', logo: '/assets/global-ai-leon.png', url: '#' }
 ];
 

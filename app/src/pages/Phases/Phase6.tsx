@@ -94,9 +94,9 @@ export const Phase6 = () => {
                 <div className="flex flex-wrap justify-center items-center gap-16 opacity-90 hover:opacity-100 transition-opacity">
                     <a href="#" className="hover:scale-110 transition-transform"><img src="/assets/logo-emprendhec.png" alt="Sponsor" className="h-12 md:h-16" /></a>
                     <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/logo-tutor-ia.png" alt="Sponsor" className="h-12 md:h-16" /></a>
-                    <a href="https://conedumxcom.netlify.app" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-conedu.png" alt="CONEDU" className="h-28 md:h-44" /></a>
+                    <a href="https://conedumxcom.netlify.app" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-conedu-blue.png" alt="CONEDU" className="h-28 md:h-44" /></a>
                     <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-evior.png" alt="Evior" className="h-28 md:h-44" /></a>
-                    <a href="https://www.truedata.com.mx/" className="hover:scale-110 transition-transform"><img src="/assets/true.png" alt="TrueData" className="h-12 md:h-16" /></a>
+                    <a href="https://www.truedata.com.mx/" className="hover:scale-110 transition-transform"><img src="/assets/true-blue.png" alt="TrueData" className="h-12 md:h-16" /></a>
                 </div>
                 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest px-10 leading-relaxed">
                     AgentCamp 2026 © Silao, Guanajuato. <br />
