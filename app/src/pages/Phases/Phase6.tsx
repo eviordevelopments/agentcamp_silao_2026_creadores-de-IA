@@ -85,18 +85,18 @@ export const Phase6 = () => {
                 <div className="flex justify-center items-center gap-4">
                     <img src="/assets/agentcamp_logo.png" alt="AgentCamp" className="h-12 w-auto" />
                     <div className="h-8 w-px bg-slate-200 dark:bg-white/10" />
-                    <img src="/assets/main_logo.png" alt="Evior" className="h-10 w-auto dark:invert" />
+                    <img src="/assets/main_logo.png" alt="Evior" className="h-10 w-auto" />
                 </div>
             </div>
 
             {/* Footer / Credits */}
             <footer className="text-center space-y-10 pt-24 border-t border-slate-200 dark:border-white/5">
-                <div className="flex flex-wrap justify-center items-center gap-16 opacity-80 hover:opacity-100 transition-opacity dark:invert">
-                    <a href="#" className="hover:scale-110 transition-transform"><img src="/assets/logo-emprendhec.png" alt="Sponsor" className="h-12 md:h-16 grayscale" /></a>
-                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/logo-tutor-ia.png" alt="Sponsor" className="h-12 md:h-16 grayscale" /></a>
-                    <a href="https://conedumxcom.netlify.app" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-conedu.png" alt="CONEDU" className="h-28 md:h-44 grayscale" /></a>
-                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-evior.png" alt="Evior" className="h-28 md:h-44 grayscale" /></a>
-                    <a href="https://www.truedata.com.mx/" className="hover:scale-110 transition-transform"><img src="/assets/true.png" alt="TrueData" className="h-12 md:h-16 grayscale" /></a>
+                <div className="flex flex-wrap justify-center items-center gap-16 opacity-90 hover:opacity-100 transition-opacity">
+                    <a href="#" className="hover:scale-110 transition-transform"><img src="/assets/logo-emprendhec.png" alt="Sponsor" className="h-12 md:h-16" /></a>
+                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/logo-tutor-ia.png" alt="Sponsor" className="h-12 md:h-16" /></a>
+                    <a href="https://conedumxcom.netlify.app" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-conedu.png" alt="CONEDU" className="h-28 md:h-44" /></a>
+                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-evior.png" alt="Evior" className="h-28 md:h-44" /></a>
+                    <a href="https://www.truedata.com.mx/" className="hover:scale-110 transition-transform"><img src="/assets/true.png" alt="TrueData" className="h-12 md:h-16" /></a>
                 </div>
                 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest px-10 leading-relaxed">
                     AgentCamp 2026 © Silao, Guanajuato. <br />

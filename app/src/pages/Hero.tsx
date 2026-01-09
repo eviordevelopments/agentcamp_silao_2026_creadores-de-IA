@@ -261,7 +261,7 @@ export const Hero = () => {
                                     src={sponsor.logo}
                                     alt={sponsor.name}
                                     className={clsx(
-                                        "w-auto grayscale brightness-75 contrast-125 object-contain dark:invert opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-500",
+                                        "w-auto object-contain opacity-90 hover:opacity-100 transition-all duration-300",
                                         (sponsor.name === 'CONEDU' || sponsor.name === 'Evior') ? "h-32 md:h-44" : "h-20 md:h-28"
                                     )}
                                 />

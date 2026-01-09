@@ -21,7 +21,7 @@ export const Header = () => {
                         <img
                             src="/assets/main_logo.png"
                             alt="Evior Logo"
-                            className="h-9 w-auto object-contain dark:invert"
+                            className="h-9 w-auto object-contain"
                         />
                     </a>
 
@@ -31,7 +31,7 @@ export const Header = () => {
                         <img
                             src="/assets/true.png"
                             alt="True Logo"
-                            className="h-8 w-auto object-contain dark:invert"
+                            className="h-8 w-auto object-contain"
                         />
                     </a>
                 </div>
