@@ -12,6 +12,12 @@ import { TechnicalDeepDive } from './pages/TechnicalDeepDive';
 import { AIFundamentals } from './pages/Articles/AIFundamentals';
 import { MachineLearningArticle } from './pages/Articles/MachineLearning';
 import { AgenticIAArticle } from './pages/Articles/AgenticIA';
+import { PromptsAntigravity } from './pages/Resources/PromptsAntigravity';
+import { PromptsMaestros } from './pages/Resources/PromptsMaestros';
+import { RutaAgentCamp } from './pages/Resources/RutaAgentCamp';
+import { Reto30Dias } from './pages/Resources/Reto30Dias';
+import { GuiaImplementacion } from './pages/Resources/GuiaImplementacion';
+import { IndiceMaestro } from './pages/Resources/IndiceMaestro';
 import './index.css';
 
 function App() {
@@ -31,6 +37,13 @@ function App() {
           <Route path="/articles/fundamentos-ia" element={<AIFundamentals />} />
           <Route path="/articles/machine-learning" element={<MachineLearningArticle />} />
           <Route path="/articles/ia-agentica" element={<AgenticIAArticle />} />
+
+          <Route path="/resources/indice-maestro" element={<IndiceMaestro />} />
+          <Route path="/resources/prompts-antigravity" element={<PromptsAntigravity />} />
+          <Route path="/resources/prompts-maestros" element={<PromptsMaestros />} />
+          <Route path="/resources/ruta-agentcamp" element={<RutaAgentCamp />} />
+          <Route path="/resources/reto-30-dias" element={<Reto30Dias />} />
+          <Route path="/resources/guia-implementacion" element={<GuiaImplementacion />} />
         </Routes>
       </Layout>
     </Router>

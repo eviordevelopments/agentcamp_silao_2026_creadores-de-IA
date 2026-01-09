@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { GlassCard } from '../components/ui/GlassCard';
 import { clsx } from 'clsx';
-import { ArrowRight, Calendar, MapPin, Users, Terminal, Zap, Linkedin, Globe, Mic2, BookOpen, Clock, ChevronRight } from 'lucide-react';
+import { ArrowRight, Calendar, MapPin, Users, Terminal, Zap, Linkedin, Globe, Mic2, BookOpen, Clock, ChevronRight, Github } from 'lucide-react';
 
 const sponsors = [
     { name: 'EmprendHEC', logo: '/assets/logo-emprendhec.png', url: '#' },
@@ -194,9 +194,20 @@ export const Hero = () => {
                         <Mic2 className="w-4 h-4" />
                         Ponentes y Facilitadores
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-black tracking-tight text-[var(--foreground)]">
-                        Conoce a los <span className="text-gradient">expertos</span>
-                    </h2>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a
+                            href="https://github.com/eviordevelopments/agentcamp_silao_2026_creadores-de-IA-practices"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white text-black font-bold hover:bg-slate-200 transition-colors shadow-lg hover:shadow-xl"
+                        >
+                            <Github className="w-5 h-5" />
+                            GitHub Codespaces
+                        </a>
+                        <h2 className="text-4xl md:text-5xl font-black tracking-tight text-[var(--foreground)]">
+                            Conoce a los <span className="text-gradient">expertos</span>
+                        </h2>
+                    </div>
                     <p className="text-black dark:text-slate-200 max-w-2xl mx-auto">
                         Líderes de la industria que compartirán su conocimiento y experiencia en el AgentCamp Guanajuato 2026.
                     </p>

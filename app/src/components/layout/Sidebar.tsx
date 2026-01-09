@@ -129,7 +129,62 @@ export const Sidebar = () => {
                             )}
                         >
                             <Code2 className="w-5 h-5" />
-                            <span className="text-sm">Technical Deep Dive</span>
+                            <span className="text-sm">Deep Dive Técnico</span>
+                        </Link>
+
+                        <div className="pt-4 pb-2">
+                            <h4 className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.2em] mb-2 px-3">
+                                Material de Taller
+                            </h4>
+                        </div>
+
+                        <Link
+                            to="/resources/ruta-agentcamp"
+                            className={clsx(
+                                "flex items-center gap-3 px-4 py-2.5 rounded-2xl transition-all duration-200",
+                                location.pathname === '/resources/ruta-agentcamp'
+                                    ? "bg-indigo-500/10 text-indigo-500 font-bold"
+                                    : "text-slate-600 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5"
+                            )}
+                        >
+                            <Zap className="w-5 h-5" />
+                            <span className="text-sm">Ruta AgentCamp</span>
+                        </Link>
+                        <Link
+                            to="/resources/prompts-maestros"
+                            className={clsx(
+                                "flex items-center gap-3 px-4 py-2.5 rounded-2xl transition-all duration-200",
+                                location.pathname === '/resources/prompts-maestros'
+                                    ? "bg-emerald-500/10 text-emerald-500 font-bold"
+                                    : "text-slate-600 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5"
+                            )}
+                        >
+                            <Terminal className="w-5 h-5" />
+                            <span className="text-sm">Prompts Maestros</span>
+                        </Link>
+                        <Link
+                            to="/resources/reto-30-dias"
+                            className={clsx(
+                                "flex items-center gap-3 px-4 py-2.5 rounded-2xl transition-all duration-200",
+                                location.pathname === '/resources/reto-30-dias'
+                                    ? "bg-pink-500/10 text-pink-500 font-bold"
+                                    : "text-slate-600 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5"
+                            )}
+                        >
+                            <Flag className="w-5 h-5" />
+                            <span className="text-sm">Reto 30 Días</span>
+                        </Link>
+                        <Link
+                            to="/resources/guia-implementacion"
+                            className={clsx(
+                                "flex items-center gap-3 px-4 py-2.5 rounded-2xl transition-all duration-200",
+                                location.pathname === '/resources/guia-implementacion'
+                                    ? "bg-amber-500/10 text-amber-500 font-bold"
+                                    : "text-slate-600 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5"
+                            )}
+                        >
+                            <BookOpen className="w-5 h-5" />
+                            <span className="text-sm">Guía Implementación</span>
                         </Link>
                     </nav>
                 </div>
