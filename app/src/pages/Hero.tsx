@@ -94,7 +94,7 @@ export const Hero = () => {
                     <div className="flex items-center gap-6 pt-4 text-slate-500 dark:text-slate-400">
                         <div className="flex items-center gap-2 font-bold">
                             <Calendar className="w-4 h-4 text-primary" />
-                            <span className="text-sm">8 Ene 2026</span>
+                            <span className="text-sm">9 Ene 2026</span>
                         </div>
                         <div className="flex items-center gap-2 font-bold">
                             <MapPin className="w-4 h-4 text-primary" />

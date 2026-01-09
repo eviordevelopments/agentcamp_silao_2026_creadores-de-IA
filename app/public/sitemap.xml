@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,43 +11,43 @@
   <!-- Phases -->
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-0</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-1</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-2</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-3</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-4</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-5</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/fase-6</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -55,7 +55,7 @@
   <!-- Technical Deep Dive -->
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/technical</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -63,19 +63,19 @@
   <!-- Articles -->
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/articles/fundamentos-ia</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/articles/machine-learning</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://agentcamp-silao-2026.netlify.app/articles/ia-agentica</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
