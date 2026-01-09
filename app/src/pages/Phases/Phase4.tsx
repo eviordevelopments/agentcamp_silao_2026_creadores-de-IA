@@ -6,7 +6,15 @@ import {
     Workflow,
     MessageSquare,
     ChevronRight,
-    Info
+    Info,
+    Github,
+    ExternalLink,
+    Layout,
+    Zap,
+    GraduationCap,
+    Cpu,
+    Layers,
+    Bot
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -174,6 +182,151 @@ export const Phase4 = () => {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </section>
+
+            <section className="space-y-8 pt-10 border-t border-slate-200 dark:border-white/10">
+                <h3 className="text-2xl font-black flex items-center gap-3">
+                    <ExternalLink className="text-primary w-6 h-6" />
+                    Recursos y Enlaces del Ecosistema
+                </h3>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Gamma Presentation */}
+                    <a
+                        href="https://de-idea-a-agente-princip-xq8a6md.gamma.site"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-pink-500/10 text-pink-500 group-hover:scale-110 transition-transform">
+                            <Layout className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">Presentación: Idea a Agente</h4>
+                            <p className="text-xs text-slate-500">Diapositivas oficiales del taller</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-pink-500 transition-colors" />
+                    </a>
+
+                    {/* TrueData Semantic Suite */}
+                    <a
+                        href="https://semantic-suite.truedata.com.mx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-blue-500/10 text-blue-500 group-hover:scale-110 transition-transform">
+                            <Zap className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">TrueData Semantic Suite</h4>
+                            <p className="text-xs text-slate-500">Plataforma de IA empresarial</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-blue-500 transition-colors" />
+                    </a>
+
+                    {/* TrueData GitHub */}
+                    <a
+                        href="https://github.com/TRUEDATAMX/Semantic-Suite-Tutorial"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-slate-800 text-white group-hover:scale-110 transition-transform">
+                            <Github className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">Semantic Suite Tutorial</h4>
+                            <p className="text-xs text-slate-500">Repositorio y código fuente</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-white transition-colors" />
+                    </a>
+
+                    {/* AgentCamp Practices */}
+                    <a
+                        href="https://github.com/eviordevelopments/agentcamp_silao_2026_creadores-de-IA-practices"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-slate-800 text-white group-hover:scale-110 transition-transform">
+                            <Github className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">AgentCamp Practices</h4>
+                            <p className="text-xs text-slate-500">Repositorio oficial del evento</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-white transition-colors" />
+                    </a>
+
+                    {/* Microsoft Learn - Develop AI Agents */}
+                    <a
+                        href="https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-blue-600/10 text-blue-600 group-hover:scale-110 transition-transform">
+                            <GraduationCap className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">Develop AI Agents on Azure</h4>
+                            <p className="text-xs text-slate-500">Learning Path Oficial</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-blue-600 transition-colors" />
+                    </a>
+
+                    {/* Azure AI Foundry */}
+                    <a
+                        href="https://learn.microsoft.com/en-us/azure/ai-foundry/?view=foundry-classic"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-purple-600/10 text-purple-600 group-hover:scale-110 transition-transform">
+                            <Cpu className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">Azure AI Foundry Docs</h4>
+                            <p className="text-xs text-slate-500">Documentación técnica</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-purple-600 transition-colors" />
+                    </a>
+
+                    {/* Semantic Kernel */}
+                    <a
+                        href="https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-emerald-600/10 text-emerald-600 group-hover:scale-110 transition-transform">
+                            <Layers className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">Semantic Kernel Multi-Agent</h4>
+                            <p className="text-xs text-slate-500">Orquestación avanzada</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-emerald-600 transition-colors" />
+                    </a>
+
+                    {/* Copilot Studio */}
+                    <a
+                        href="https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all hover:shadow-lg"
+                    >
+                        <div className="p-3 rounded-lg bg-sky-600/10 text-sky-600 group-hover:scale-110 transition-transform">
+                            <Bot className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-slate-900 dark:text-white">Build Copilot with AI Studio</h4>
+                            <p className="text-xs text-slate-500">Creación de asistentes</p>
+                        </div>
+                        <ChevronRight className="ml-auto text-slate-400 group-hover:text-sky-600 transition-colors" />
+                    </a>
                 </div>
             </section>
         </div>
