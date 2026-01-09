@@ -14,7 +14,8 @@ import {
     GraduationCap,
     Cpu,
     Layers,
-    Bot
+    Bot,
+    Download
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -192,6 +193,23 @@ export const Phase4 = () => {
                 </h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Antigravity Download */}
+                    <a
+                        href="https://antigravity.google/download"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-4 p-4 rounded-xl bg-primary text-white border border-primary hover:bg-primary/90 transition-all hover:shadow-lg lg:col-span-2"
+                    >
+                        <div className="p-3 rounded-lg bg-white/20 text-white group-hover:scale-110 transition-transform">
+                            <Download className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h4 className="font-bold">Download Antigravity</h4>
+                            <p className="text-xs opacity-90">Prueba el IDE del futuro para Agentic AI</p>
+                        </div>
+                        <ChevronRight className="ml-auto opacity-70 group-hover:opacity-100 transition-opacity" />
+                    </a>
+
                     {/* Gamma Presentation */}
                     <a
                         href="https://de-idea-a-agente-princip-xq8a6md.gamma.site"
