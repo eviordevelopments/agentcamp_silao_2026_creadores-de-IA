@@ -10,9 +10,9 @@ const sponsors = [
     { name: 'E-vior Developments', logo: '/assets/logo-tutor-ia.png', url: 'https://eviordevelopments.com' },
     { name: 'Global AI Community', logo: '/assets/logo-global-ai.png', url: '#' },
     { name: 'Inst Innovación', logo: '/assets/logo-instinnovacion.png', url: '#' },
-    { name: 'CONEDU', logo: '/assets/colaboracion-conedu-blue.png', url: 'https://conedumxcom.netlify.app' },
+    { name: 'CONEDU', logo: '/assets/colaboracion-conedu.png', url: 'https://conedumxcom.netlify.app' },
     { name: 'Evior', logo: '/assets/colaboracion-evior.png', url: 'https://eviordevelopments.com' },
-    { name: 'TrueData', logo: '/assets/true-blue.png', url: 'https://www.truedata.com.mx/' },
+    { name: 'TrueData', logo: '/assets/true.png', url: 'https://www.truedata.com.mx/' },
     { name: 'Global AI León', logo: '/assets/global-ai-leon.png', url: '#' }
 ];
 
@@ -77,7 +77,7 @@ export const Hero = () => {
                         </span>
                     </h1>
 
-                    <p className="text-lg text-slate-600 dark:text-slate-200 max-w-xl leading-relaxed">
+                    <p className="text-lg text-[var(--foreground)] dark:text-slate-200 max-w-xl leading-relaxed">
                         {t('hero.description')}
                     </p>
 
@@ -144,7 +144,7 @@ export const Hero = () => {
                                 <h3 className="text-3xl font-black leading-tight text-[var(--foreground)]">
                                     Fundamentos de la IA: De Redes Neuronales a Agentes Inteligentes
                                 </h3>
-                                <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                                <p className="text-lg text-black dark:text-slate-300 leading-relaxed">
                                     Explora la ingeniería detrás de las CNNs, LLMs y el procesamiento de imágenes médicas en un reporte técnico detallado de 2026.
                                 </p>
                                 <div className="flex items-center gap-2 text-primary font-bold group-hover:translate-x-2 transition-transform">
@@ -163,7 +163,7 @@ export const Hero = () => {
                         <Users className="text-orange-500 w-6 h-6" />
                     </div>
                     <h3 className="text-xl font-bold text-[var(--foreground)]">Comunidad Activa</h3>
-                    <p className="text-sm text-slate-500 dark:text-slate-200 leading-relaxed">
+                    <p className="text-sm text-black dark:text-slate-200 leading-relaxed">
                         Conecta con creadores de IA, ingenieros y emprendedores técnicos en Guanajuato.
                     </p>
                 </GlassCard>
@@ -172,7 +172,7 @@ export const Hero = () => {
                         <Terminal className="text-blue-500 w-6 h-6" />
                     </div>
                     <h3 className="text-xl font-bold text-[var(--foreground)]">100% Práctico</h3>
-                    <p className="text-sm text-slate-500 dark:text-slate-200 leading-relaxed">
+                    <p className="text-sm text-black dark:text-slate-200 leading-relaxed">
                         Desde la teoría acelerada hasta MVPs funcionales en menos de 90 minutos.
                     </p>
                 </GlassCard>
@@ -181,7 +181,7 @@ export const Hero = () => {
                         <Zap className="text-green-500 w-6 h-6" />
                     </div>
                     <h3 className="text-xl font-bold text-[var(--foreground)]">Resultados Reales</h3>
-                    <p className="text-sm text-slate-500 dark:text-slate-200 leading-relaxed">
+                    <p className="text-sm text-black dark:text-slate-200 leading-relaxed">
                         Prototipado guiado en vivo para resolver problemas reales del sector local.
                     </p>
                 </GlassCard>
@@ -197,7 +197,7 @@ export const Hero = () => {
                     <h2 className="text-4xl md:text-5xl font-black tracking-tight text-[var(--foreground)]">
                         Conoce a los <span className="text-gradient">expertos</span>
                     </h2>
-                    <p className="text-slate-500 dark:text-slate-200 max-w-2xl mx-auto">
+                    <p className="text-black dark:text-slate-200 max-w-2xl mx-auto">
                         Líderes de la industria que compartirán su conocimiento y experiencia en el AgentCamp Guanajuato 2026.
                     </p>
                 </div>
@@ -232,7 +232,7 @@ export const Hero = () => {
                                 <div className="p-6 space-y-3 flex-1 bg-white dark:bg-black transition-colors duration-500">
                                     <h4 className="text-xl font-bold text-slate-900 dark:text-white leading-tight">{speaker.name}</h4>
                                     <p className="text-xs font-bold text-primary uppercase tracking-wider">{speaker.role}</p>
-                                    <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed italic">
+                                    <p className="text-xs text-black dark:text-slate-300 leading-relaxed italic">
                                         {speaker.sessions}
                                     </p>
                                 </div>
@@ -261,7 +261,7 @@ export const Hero = () => {
                                     src={sponsor.logo}
                                     alt={sponsor.name}
                                     className={clsx(
-                                        "w-auto object-contain opacity-90 hover:opacity-100 transition-all duration-300",
+                                        "w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300",
                                         (sponsor.name === 'CONEDU' || sponsor.name === 'Evior') ? "h-32 md:h-44" : "h-20 md:h-28"
                                     )}
                                 />

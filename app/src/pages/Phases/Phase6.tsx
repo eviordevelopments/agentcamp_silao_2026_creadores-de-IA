@@ -35,7 +35,7 @@ export const Phase6 = () => {
                     Desbloqueando el <br />
                     <span className="text-gradient">Potencial Infinito</span>
                 </h1>
-                <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">
+                <p className="text-xl text-[var(--foreground)] dark:text-slate-400 max-w-2xl mx-auto">
                     Has completado la ruta. Ahora eres un Creador de IA con las herramientas para transformar el sector productivo de Guanajuato.
                 </p>
             </header>
@@ -53,7 +53,7 @@ export const Phase6 = () => {
                                 <p.icon className={`w-6 h-6 ${p.color}`} />
                             </div>
                             <h3 className="text-xl font-bold text-[var(--foreground)]">{p.title}</h3>
-                            <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            <p className="text-sm text-black dark:text-slate-400 leading-relaxed">
                                 {p.desc}
                             </p>
                         </GlassCard>
@@ -65,7 +65,7 @@ export const Phase6 = () => {
                 <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 blur-[100px] rounded-full pointer-events-none" />
                 <div className="relative z-10 space-y-8">
                     <h2 className="text-3xl font-black text-[var(--foreground)]">¿Listo para el siguiente nivel?</h2>
-                    <p className="text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
+                    <p className="text-[var(--foreground)] dark:text-slate-400 max-w-xl mx-auto">
                         Únete a la comunidad de graduados, accede a recursos exclusivos y mantente al día con las últimas tendencias en agentes de IA autónomos.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
@@ -92,11 +92,11 @@ export const Phase6 = () => {
             {/* Footer / Credits */}
             <footer className="text-center space-y-10 pt-24 border-t border-slate-200 dark:border-white/5">
                 <div className="flex flex-wrap justify-center items-center gap-16 opacity-90 hover:opacity-100 transition-opacity">
-                    <a href="#" className="hover:scale-110 transition-transform"><img src="/assets/logo-emprendhec.png" alt="Sponsor" className="h-12 md:h-16" /></a>
-                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/logo-tutor-ia.png" alt="Sponsor" className="h-12 md:h-16" /></a>
-                    <a href="https://conedumxcom.netlify.app" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-conedu-blue.png" alt="CONEDU" className="h-28 md:h-44" /></a>
-                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-evior.png" alt="Evior" className="h-28 md:h-44" /></a>
-                    <a href="https://www.truedata.com.mx/" className="hover:scale-110 transition-transform"><img src="/assets/true-blue.png" alt="TrueData" className="h-12 md:h-16" /></a>
+                    <a href="#" className="hover:scale-110 transition-transform"><img src="/assets/logo-emprendhec.png" alt="Sponsor" className="h-12 md:h-16 grayscale hover:grayscale-0 transition-all" /></a>
+                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/logo-tutor-ia.png" alt="Sponsor" className="h-12 md:h-16 grayscale hover:grayscale-0 transition-all" /></a>
+                    <a href="https://conedumxcom.netlify.app" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-conedu.png" alt="CONEDU" className="h-28 md:h-44 grayscale hover:grayscale-0 transition-all" /></a>
+                    <a href="https://eviordevelopments.com" className="hover:scale-110 transition-transform"><img src="/assets/colaboracion-evior.png" alt="Evior" className="h-28 md:h-44 grayscale hover:grayscale-0 transition-all" /></a>
+                    <a href="https://www.truedata.com.mx/" className="hover:scale-110 transition-transform"><img src="/assets/true.png" alt="TrueData" className="h-12 md:h-16 grayscale hover:grayscale-0 transition-all" /></a>
                 </div>
                 <p className="text-xs font-bold text-slate-400 uppercase tracking-widest px-10 leading-relaxed">
                     AgentCamp 2026 © Silao, Guanajuato. <br />
