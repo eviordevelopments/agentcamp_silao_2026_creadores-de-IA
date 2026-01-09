@@ -1,0 +1,97 @@
+[build]
+  base = "app"
+  publish = "app/dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+  conditions = {Role = ["public"]}
+
+# Redirect old URLs if needed
+[[redirects]]
+  from = "/fase0"
+  to = "/fase-0"
+  status = 301
+
+[[redirects]]
+  from = "/fase1"
+  to = "/fase-1"
+  status = 301
+
+[[redirects]]
+  from = "/fase2"
+  to = "/fase-2"
+  status = 301
+
+[[redirects]]
+  from = "/fase3"
+  to = "/fase-3"
+  status = 301
+
+[[redirects]]
+  from = "/fase4"
+  to = "/fase-4"
+  status = 301
+
+[[redirects]]
+  from = "/fase5"
+  to = "/fase-5"
+  status = 301
+
+[[redirects]]
+  from = "/fase6"
+  to = "/fase-6"
+  status = 301
+
+# Security Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML files should not be cached
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

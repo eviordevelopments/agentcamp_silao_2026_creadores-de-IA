@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://agentcamp-silao-2026.netlify.app/sitemap.xml
+
+# Disallow admin or private paths (if any in the future)
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow all assets
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.webp$
