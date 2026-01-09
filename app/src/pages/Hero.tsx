@@ -86,9 +86,14 @@ export const Hero = () => {
                             {t('hero.cta')}
                             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </Link>
-                        <button className="px-6 py-4 rounded-2xl border border-slate-200 dark:border-white/10 font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all text-[var(--foreground)]">
+                        <a
+                            href="https://github.com/eviordevelopments/agentcamp_silao_2026_creadores-de-IA-practices"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-4 rounded-2xl border border-slate-200 dark:border-white/10 font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all text-[var(--foreground)]"
+                        >
                             GitHub Codespaces
-                        </button>
+                        </a>
                     </div>
 
                     <div className="flex items-center gap-6 pt-4 text-slate-500 dark:text-slate-400">

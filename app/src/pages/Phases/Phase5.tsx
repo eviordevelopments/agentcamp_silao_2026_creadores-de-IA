@@ -27,7 +27,7 @@ export const Phase5 = () => {
                         title="Project Starter"
                         language="bash"
                         code={`# Clonar el repositorio starter
-git clone https://github.com/AgentCamp-Gto/agentcamp-starter
+git clone https://github.com/eviordevelopments/agentcamp_silao_2026_creadores-de-IA-practices
 
 # Abrir en Codespaces y configurar entorno
 cd agentcamp-starter
@@ -87,7 +87,14 @@ cp .env.example .env # Agrega tus API Keys`}
                     <p className="text-slate-600 dark:text-slate-400 max-w-md mx-auto">
                         Accede al repositorio completo y comienza tu primer MVP siguiendo las guías paso a paso.
                     </p>
-                    <button className="btn-premium">Abrir GitHub Codespace</button>
+                    <a
+                        href="https://github.com/eviordevelopments/agentcamp_silao_2026_creadores-de-IA-practices"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-premium inline-block"
+                    >
+                        Abrir GitHub Codespace
+                    </a>
                 </GlassCard>
             </section>
         </div>
