@@ -1,0 +1,14 @@
+{
+    "nav": {
+        "home": "Home",
+        "workshop": "Workshop",
+        "resources": "Resources",
+        "challenges": "Challenges"
+    },
+    "hero": {
+        "title": "AgentCamp 2026",
+        "subtitle": "Ruta de Creadores de IA",
+        "description": "Un recurso digital unificado para dominar los principios sistémicos y herramientas de la Inteligencia Artificial Agéntica.",
+        "cta": "Empezar Ruta"
+    }
+}
